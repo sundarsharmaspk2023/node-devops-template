@@ -19,7 +19,7 @@ jobs:
       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       
     - name: Build the Docker image
-      run: docker build -t sundersharmaspk2023/node-devops-template .
+      run: docker build -t sundarsharmaspk2023/node-devops-template .
     - name: Push to Dockerhub
-      run: docker push sundersharmaspk2023/node-devops-template:latest
+      run: docker push sundarsharmaspk2023/node-devops-template:latest
     
